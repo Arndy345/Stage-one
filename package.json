@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "stage-one.js",
 	"scripts": {
-		"start": "nodemon stage-one.js",
+		"start": "node stage-one.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
