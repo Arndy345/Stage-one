@@ -18,7 +18,8 @@ app.get("/", (req, res) => {
 		current_day: dayNames[date.getDay()],
 		utc_time: date,
 		track: track,
-		github_file_url: "",
+		github_file_url:
+			"https://github.com/Arndy345/Stage-one/blob/main/index.js",
 		github_repo_url:
 			"https://github.com/Arndy345/Stage-one",
 		status_code: 200,
