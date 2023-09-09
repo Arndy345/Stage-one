@@ -19,7 +19,8 @@ app.get("/", (req, res) => {
 		utc_time: date,
 		track: track,
 		github_file_url: "",
-		github_repo_url: "",
+		github_repo_url:
+			"https://github.com/Arndy345/Stage-one",
 		status_code: 200,
 	});
 });
