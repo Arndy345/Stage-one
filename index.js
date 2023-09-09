@@ -11,7 +11,7 @@ const dayNames = [
 	"Friday",
 	"Saturday",
 ];
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
 	const { slack_name, track } = req.query;
 	res.json({
 		slack_name: slack_name,
