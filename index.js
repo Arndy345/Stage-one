@@ -17,7 +17,7 @@ app.get("/api", (req, res) => {
 		slack_name: slack_name,
 		current_day: dayNames[date.getDay()],
 		utc_time:
-			date.toISOString().split(".")[0] + "Z",
+			new Date().toISOString().slice(0,19)+ "Z",
 		track: track,
 		github_file_url:
 			"https://github.com/Arndy345/Stage-one/blob/main/index.js",
